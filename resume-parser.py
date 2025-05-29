@@ -4,7 +4,10 @@ import streamlit as st
 import google.generativeai as genai
 from PyPDF2 import PdfReader
 
-GOOGLE_API_KEY = "AIzaSyAlLoonYbwmFBu4s3YykRKMGGZNoa9VZeE"
+# Replace with your API Key
+# URL to get API Key - https://aistudio.google.com/prompts/new_chat
+# Get API Key and Paste here
+GOOGLE_API_KEY = "xxxxxxxxxxxxxxxxx"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel("gemini-2.0-flash-001")
